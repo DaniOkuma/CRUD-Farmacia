@@ -75,4 +75,5 @@ public class CategoriaController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
 		categoriaRepository.deleteById(id);
 	}
+	
 }
